@@ -5,6 +5,7 @@
     "socket.io": "^4.7.5"
   },
   "scripts": {
-    "heroku-postbuild": "cd ./dino-app && npm install && npm run build"
+    "heroku-postbuild": "cd ./dino-app && npm install && npm install -g @angular/cli && npm run build"
+    
   }
 }
